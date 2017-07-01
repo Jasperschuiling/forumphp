@@ -4,7 +4,7 @@ include 'login_handler.php';
 
 if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
     $nav = "<li style=\"float:right\"><a style=\"text-decoration: none;\" href=\"logout.php\" >Logout</a></li>
-            <li style=\"float:right\"><a style=\"text-decoration: none;\" href=\"#\" >My Profile</a></li>";
+            <li style=\"float:right\"><a style=\"text-decoration: none;\" href=\"profile.php\" >My Profile</a></li>";
 } else {
     $nav = "<li style=\"float:right\"><a style=\"text-decoration: none;\" href=\"loginpage.php\" >Login</a></li>
             <li style=\"float:right;\"><a href=\"registerpage.php\" style=\"text-decoration: none;\">Sign up</a></li>";

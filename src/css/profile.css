@@ -1,14 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-    background: url("../img/background.jpg") no-repeat fixed center;
-    font-family: "Century Gothic";
-    background-color: dimgray;
-}
-
-
-
-#main-wrapper {
+.userdate_wrapper {
     width: 550px;
     height: 60%;
     margin: 0 auto;
@@ -17,25 +7,21 @@ body {
     border-radius: 5px;
     border: 2px solid black;
     box-shadow: 5px 5px 5px #888888;
-
-
 }
 
-#avatarimg {
-    width: 100px;
-    border-radius: 50%;
+.change_email {
+    width: 90%;
     margin: auto;
-    display: block;
+    padding: 15px;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0;
 }
 
-.login_form {
-    width: 450px;
-    margin: 0 auto;
-}
-
-
-.inputvalues{
-    width: 430px;
+.change_password{
+    width: 90%;
+    margin: auto;
     padding: 15px;
     font-family: "Century Gothic";
     font-size: 18px;
@@ -44,12 +30,25 @@ body {
 
 }
 
-#login_btn{
+.change_email_btn{
     margin-top: 10px;
     background-color: forestgreen;
     padding: 15px;
     color: white;
-    width: 102%;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Century Gothic";
+    border: 0;
+    border-radius: 5px;
+}
+
+.change_password_btn{
+    margin-top: 10px;
+    background-color: forestgreen;
+    padding: 15px;
+    color: white;
+    width: 50%;
     text-align: center;
     font-size: 18px;
     font-family: "Century Gothic";

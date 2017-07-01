@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="../css/register.css">
     <title>Register page</title>
-    <?php include 'head.php';  include 'register_handler.php'?>
+    <?php include_once 'head.php';  include_once 'register_handler.php'; include_once 'authentication.php'?>
 </head>
 
 <body style="background-color: gray">

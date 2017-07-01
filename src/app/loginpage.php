@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/login.css">
     <title>Login Pagina</title>
 
-    <?php include 'head.php'; ?>
+    <?php include_once 'head.php'; include_once 'authentication.php'?>
 
 </head>
 
